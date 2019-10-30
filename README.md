@@ -1,3 +1,11 @@
+Table of Contents
+=================
+   * [MySQL Master-Slave Architecture](#mysql-master-slave-architecture)
+      * [1 Edit the setting file of MySQL](#1-edit-the-setting-file-of-mysql)
+      * [2 Operations on a master server](#2-operations-on-a-master-server)
+      * [3 Operation on a slave database](#3-operation-on-a-slave-database)
+      * [4 Multi-master-slave architecture](#4-multi-master-slave-architecture)
+      
 # MySQL Master-Slave Architecture
 
 ## 1 Edit the setting file of MySQL
@@ -77,7 +85,7 @@ Relay_Master_Log_File: mysql-bin.000010
 If both values of “Slave_IO_Running” and “Slave_SQL_Running” are “Yes”, The setting has been updated successful.  
 
 
-## 4 Master-master architecture is actually a double-master-slave architecture
+## 4 Multi-master-slave architecture
 Do the same thing once again but remember to add those setting to the “my.ini” file.  
 For master database:  
 ```
