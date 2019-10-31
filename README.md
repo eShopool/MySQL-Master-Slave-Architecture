@@ -7,6 +7,8 @@ Table of Contents
       * [4 Multi-master-slave architecture](#4-multi-master-slave-architecture)
       
 # MySQL Master-Slave Architecture
+[![LICENSE](https://img.shields.io/hexpm/l/plug)](https://github.com/eShopool/Android-Application/blob/master/LICENSE)
+[![MySQL](https://img.shields.io/badge/MySQL-5.7.28-blueviolet)](https://dev.mysql.com/downloads/mysql/)
 
 ## 1 Edit the setting file of MySQL
 Normally the setting file is located at: C:\ProgramData\MySQL\MySQL Server X.X. The file name is “my.ini”.  
